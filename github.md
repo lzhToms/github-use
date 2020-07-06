@@ -1,7 +1,6 @@
 ## github
 
 ## Github建立组织团队
-
 01. 使用Github网上大多数是采用ssh连接，需要输入密钥。Github desktop可以简单的解决这一问题
 02. 主机人员添加New Organization输入组织名，接收邮箱等
 03. 添加组织人员也就是不同账号，不用理会下一页的体验改进调查
@@ -11,7 +10,6 @@
 07. 删除在settings，但是要输入需删除的名称，以免误删
 
 ## Github使用桌面版
-
 08. 下载Github桌面版
 09. 打开软件使用注册或者已有的邮箱密码进行登录，选择File-》Clone repository 同步github上的文件并确定保存本地地址路径
 10. 用编辑器修改操作文件，和源文件相比如有改动则会显示在github桌面版左上角列表，而后在左下角输入摘要后，先保存在自己的本地中，选择push 推到github上
@@ -26,20 +24,20 @@
 ## 通过命令如何使用
 
 commit 之后：
-git fetch origin master:temp 创建个临时分支
-git  stash  有其他没有必须提交的文件执行，也就是暂存一下
-git  pull --rebase
-git rebase temp
-git push 
-git branch -D temp 删除临时分支
-git stash pop
+1. git fetch origin master:temp 创建个临时分支
+2. git  stash  有其他没有必须提交的文件执行，也就是暂存一下
+3. git  pull --rebase
+4. git rebase temp
+5. git push 
+6. git branch -D temp 删除临时分支
+7. git stash pop
 
 提交临时版：
-git cherry-pick 自己的提交时候生成的号
-git pull --rebase
-git push
+1. git cherry-pick 自己的提交时候生成的号
+2. git pull --rebase
+3. git push
 
 其他命令：
-git status查看下
-git branch 有那几个分支
+1. git status查看下
+2. git branch 有那几个分支
 
